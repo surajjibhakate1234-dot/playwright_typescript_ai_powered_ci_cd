@@ -1,0 +1,27 @@
+{
+  "name": "playwright_typescript_ai_powered_ci_cd",
+  "version": "1.0.0",
+  "description": "Sample testcase for running ci/cd pipleine with Typescript",
+  "main": "index.js",
+"scripts": {
+  "test": "playwright test",
+  "test:headed": "playwright test --headed",
+  "test:debug": "playwright test --debug"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajjibhakate1234-dot/playwright_typescript_ai_powered_ci_cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/surajjibhakate1234-dot/playwright_typescript_ai_powered_ci_cd/issues"
+  },
+  "homepage": "https://github.com/surajjibhakate1234-dot/playwright_typescript_ai_powered_ci_cd#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
